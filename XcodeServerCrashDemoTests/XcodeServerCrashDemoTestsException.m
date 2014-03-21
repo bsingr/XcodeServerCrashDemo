@@ -42,5 +42,14 @@
     [[XcodeServerCrashDemo new] demoException2];
 }
 
+- (void)testRaiseExceptionFromOperation
+{
+    NSOperationQueue *queue = [NSOperationQueue mainQueue];
+    [queue addOperationWithBlock:^{
+        NSAssert(NO, @"Assert error");
+    }];
+    [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:1]];
+}
+
 
 @end
