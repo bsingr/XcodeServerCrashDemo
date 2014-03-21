@@ -37,4 +37,10 @@
     [[XcodeServerCrashDemo new] demoException];
 }
 
+- (void)testRaiseDeepException2
+{
+    [[XcodeServerCrashDemo new] demoException2];
+}
+
+
 @end

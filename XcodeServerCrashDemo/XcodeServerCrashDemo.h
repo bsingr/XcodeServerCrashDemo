@@ -11,5 +11,6 @@
 @interface XcodeServerCrashDemo : NSObject
 
 - (void)demoException;
+- (void)demoException2;
 
 @end

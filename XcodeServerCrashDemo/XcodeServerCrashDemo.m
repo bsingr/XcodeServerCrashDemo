@@ -15,4 +15,9 @@
     NSParameterAssert(NO);
 }
 
+- (void)demoException2
+{
+    NSAssert(NO, @"Error via NSAssrt");
+}
+
 @end
