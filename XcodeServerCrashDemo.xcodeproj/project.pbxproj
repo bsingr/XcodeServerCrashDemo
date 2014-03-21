@@ -18,6 +18,7 @@
 		E4B8822518DC652C00281CD0 /* XcodeServerCrashDemoTestsSuccess.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8822418DC652C00281CD0 /* XcodeServerCrashDemoTestsSuccess.m */; };
 		E4B8822718DC655600281CD0 /* XcodeServerCrashDemoTestsException.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8822618DC655600281CD0 /* XcodeServerCrashDemoTestsException.m */; };
 		E4B8822918DC657700281CD0 /* XcodeServerCrashDemoTestsFail.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8822818DC657700281CD0 /* XcodeServerCrashDemoTestsFail.m */; };
+		E4B8822A18DC700800281CD0 /* XcodeServerCrashDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8820718DC64B400281CD0 /* XcodeServerCrashDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -269,6 +270,7 @@
 				E4B8821B18DC64B400281CD0 /* XcodeServerCrashDemoTests.m in Sources */,
 				E4B8822918DC657700281CD0 /* XcodeServerCrashDemoTestsFail.m in Sources */,
 				E4B8822718DC655600281CD0 /* XcodeServerCrashDemoTestsException.m in Sources */,
+				E4B8822A18DC700800281CD0 /* XcodeServerCrashDemo.m in Sources */,
 				E4B8822518DC652C00281CD0 /* XcodeServerCrashDemoTestsSuccess.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "XcodeServerCrashDemo.h"
 
 @interface XcodeServerCrashDemoTestsException : XCTestCase
 
@@ -29,6 +30,11 @@
 - (void)testRaiseException
 {
     NSParameterAssert(NO);
+}
+
+- (void)testRaiseDeepException
+{
+    [[XcodeServerCrashDemo new] demoException];
 }
 
 @end

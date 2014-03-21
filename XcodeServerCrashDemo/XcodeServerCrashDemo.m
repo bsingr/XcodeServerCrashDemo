@@ -10,4 +10,9 @@
 
 @implementation XcodeServerCrashDemo
 
+- (void)demoException
+{
+    NSParameterAssert(NO);
+}
+
 @end
